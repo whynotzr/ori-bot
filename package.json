@@ -1,0 +1,25 @@
+{
+  "name": "anime-gaming-discord-bot",
+  "version": "2.0.0",
+  "description": "Bot Discord Anime/Gaming complet avec reaction roles, modération et fun",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "canvas": "^3.2.3",
+    "discord-xp": "^1.1.16",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
